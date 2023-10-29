@@ -20,7 +20,8 @@ export class UserService {
   /**
    * get a single user by username
    */
-  getUser(username: string) { 
+  getUser(username: string) {
+    console.log(this.http.get(`${this.apiUrl}/${username}`)); 
     return this.http.get(`${this.apiUrl}/${username}`);
   }
 
