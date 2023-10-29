@@ -6,9 +6,6 @@ import { Component } from '@angular/core';
     <!-- header -->
     <app-header></app-header>
 
-    <!-- home -->
-    <app-home></app-home>
-
     <!-- routes get injected here -->
     <router-outlet></router-outlet>
 
@@ -18,5 +15,7 @@ import { Component } from '@angular/core';
   styles: []
 })
 export class AppComponent {
-  title = 'my-angular-site';
+  constructor() { }
+
+
 }

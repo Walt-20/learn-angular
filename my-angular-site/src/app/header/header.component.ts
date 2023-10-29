@@ -8,8 +8,17 @@ import { Component } from '@angular/core';
       <!-- logo -->
       <div class="navbar-brand">
         <a class='navbar-item'>
-          <img src="../../assets/img/parachute.webp">
+          <img src="../../assets/img/parachute.webp" routerLink="/">
         </a>
+
+      </div>
+      <!-- menu -->
+      <div class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" routerLink="/">Home</a>
+          <a class="navbar-item" routerLink="/contact">Contact</a>
+          <a class="navbar-item" routerLink="/users">Users</a>
+        </div>
 
       </div>
     </div>
